@@ -1,0 +1,38 @@
+ 2018-05-22 20:37:06,759 Test worker DEBUG Initializing configuration XmlConfiguration[location=D:\workspace-central\micrawler\build\resources\main\log4j2.xml]
+E2018-05-22 20:37:06,773 Test worker DEBUG Installed 1 script engine
+¦2018-05-22 20:37:07,294 Test worker DEBUG Oracle Nashorn version: 1.8.0_162, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+R2018-05-22 20:37:07,295 Test worker DEBUG PluginManager 'Core' found 116 plugins
+Q2018-05-22 20:37:07,296 Test worker DEBUG PluginManager 'Level' found 0 plugins
+S2018-05-22 20:37:07,304 Test worker DEBUG PluginManager 'Lookup' found 13 plugins
+ƒ2018-05-22 20:37:07,309 Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+Z2018-05-22 20:37:07,329 Test worker DEBUG PluginManager 'TypeConverter' found 26 plugins
+ë2018-05-22 20:37:07,353 Test worker DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(D:\workspace-central\micrawler\build\resources\main\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+V2018-05-22 20:37:07,354 Test worker DEBUG PluginManager 'Converter' found 44 plugins
+‰2018-05-22 20:37:07,358 Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+ü2018-05-22 20:37:07,373 Test worker DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(D:\workspace-central\micrawler\build\resources\main\log4j2.xml), Filter=null)
+_2018-05-22 20:37:07,377 Test worker DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+ˆ2018-05-22 20:37:07,378 Test worker DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+G2018-05-22 20:37:07,380 Test worker DEBUG createAppenders(={Console})
+†2018-05-22 20:37:07,380 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+g2018-05-22 20:37:07,388 Test worker DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+‹2018-05-22 20:37:07,388 Test worker DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+ß2018-05-22 20:37:07,390 Test worker DEBUG createLogger(additivity="null", level="DEBUG", includeLocation="null", ={Console}, ={}, Configuration(D:\workspace-central\micrawler\build\resources\main\log4j2.xml), Filter=null)
+„2018-05-22 20:37:07,394 Test worker DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+B2018-05-22 20:37:07,396 Test worker DEBUG createLoggers(={root})
+Ÿ2018-05-22 20:37:07,397 Test worker DEBUG Configuration XmlConfiguration[location=D:\workspace-central\micrawler\build\resources\main\log4j2.xml] initialized
+œ2018-05-22 20:37:07,398 Test worker DEBUG Starting configuration XmlConfiguration[location=D:\workspace-central\micrawler\build\resources\main\log4j2.xml]
+Ÿ2018-05-22 20:37:07,399 Test worker DEBUG Started configuration XmlConfiguration[location=D:\workspace-central\micrawler\build\resources\main\log4j2.xml] OK.
+f2018-05-22 20:37:07,400 Test worker DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+€2018-05-22 20:37:07,401 Test worker DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+^2018-05-22 20:37:07,402 Test worker DEBUG Appender DefaultConsole-1 stopped with status true
+y2018-05-22 20:37:07,403 Test worker DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@7bc5dae2 OK
+e2018-05-22 20:37:07,487 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=659e0bfd
+|2018-05-22 20:37:07,492 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=659e0bfd,component=StatusLogger
+2018-05-22 20:37:07,494 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=659e0bfd,component=ContextSelector
+}2018-05-22 20:37:07,500 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=659e0bfd,component=Loggers,name=
+†2018-05-22 20:37:07,503 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=659e0bfd,component=Appenders,name=Console
+2018-05-22 20:37:07,506 Test worker DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+ü2018-05-22 20:37:07,507 Test worker DEBUG Reconfiguration complete for context[name=659e0bfd] at URI D:\workspace-central\micrawler\build\resources\main\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@584baf95) with optional ClassLoader: null
+Y2018-05-22 20:37:07,507 Test worker DEBUG Shutdown hook enabled. Registering a new one.
+Š2018-05-22 20:37:07,509 Test worker DEBUG LoggerContext[name=659e0bfd, org.apache.logging.log4j.core.LoggerContext@584baf95] started OK.
+p20:37:07.518 [Test worker] DEBUG org.crawler.service.CrawlService - http://wiprodigital.com : wiprodigital.com
