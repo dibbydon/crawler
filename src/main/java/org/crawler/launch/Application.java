@@ -12,7 +12,7 @@ public class Application {
 		
 		try {
 			Set<String> links = crawlService.getLinksFromUrl("http://wiprodigital.com");
-			links.stream().sorted().forEach(l -> {System.out.println(l);});
+			links.stream().sorted().forEach(l -> {System.out.println("\t"+ l);});
 		} catch (IOException e) {
 			e.getMessage();
 		}

@@ -34,6 +34,7 @@ public class CrawlService {
 									 .get();
 			
 			Elements pageLinks = document.select("a[href]");
+			Elements imageLinks = document.select("img");
 			
 			pageLinks.stream().map(p  -> p.attr("abs:href"))
 			                  .forEach(l -> { 
@@ -46,6 +47,10 @@ public class CrawlService {
 												}
 				                              }
 			                                 });
+			
+			imageLinks.stream().map(i -> i.attr("abs:src"))
+			                   .forEach(i -> {links.add(i);});
+				
 		}
 		
 		return links;
