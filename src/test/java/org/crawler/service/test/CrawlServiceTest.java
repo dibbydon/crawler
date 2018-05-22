@@ -29,6 +29,7 @@ public class CrawlServiceTest {
 		Set<String> links = crawlService.getLinksFromUrl("http://wiprodigital.com");
 		assertNotNull(links);
 		assertThat(links, hasItem("https://wiprodigital.com/what-we-do"));
+		assertThat(links, hasItem("https://s17776.pcdn.co/wp-content/themes/wiprodigital/images/logo.png"));
 	}
 
 }
